@@ -1,14 +1,24 @@
 # Mid-Project-Jwa (The Bank System)
 
+</br>
+</br>
 
 ## Project Description
 This project is a simple based banking system that allows users to manage their accounts. 
 It includes features like creating accounts, depositing and withdrawing funds, transferring money between accounts, 
 and checking account balances.
+</br>
+</br>
 
 
+Technology used: I will be using Java, MySQL Workbench, and the Spring framework for my work.
+
+</br>
+</br>
 
 ## Project Structure
+</br>
+
 **The project is organized into packages, each serving a specific purpose:**
 
 -**Entity**: Contains entity classes representing the data model, including Account, AccountHolder, and AccountStatus.
@@ -20,6 +30,8 @@ and checking account balances.
 -**Services.Implementation:** Includes service implementations for business logic, such as AccountServiceImp` and AccountHolderServiceImp.
 
 -**Services.Interface:** Provides service interfaces, like AccountInterface and AccountHolderInterface.
+
+</br>
 
 
 ### The Classes
@@ -72,14 +84,34 @@ In Bank System project, there are several classes:
 </br>
 </br>
 
-####Concluion 
+##### External Link: 
+[**The Trello**](https://trello.com/invite/b/cpbDaKwn/ATTI7dd96bdcff384f51b6fd4329f587d3e9A01BAA78/mid-project)
+</br>
+[**Presentation**](https://www.canva.com/design/DAFyUvMoaH8/Tul5tIcVMUpryUh8C4TzEg/edit?utm_content=DAFyUvMoaH8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+</br>
+</br>
+
+**Future work:**
+I will be focusing on implementing the administrative functionalities in our project, as the primary emphasis here is on the account holder and their needs. Additionally,
+I will be giving special attention to enhancing security using the Spring framework.
+
+
+
+#### Conclusion 
 
 **In summary**, theBank System project is structured to manage bank accounts and account holders efficiently. Key components include entity classes for accounts and users, repository interfaces for data access, controllers for handling HTTP requests, and services for business logic.
 
 The project establishes one-to-one relationships between accounts and account holders, and it uses inheritance for account holders extending the user class. Additionally, it uses an enum for representing account statuses.
 
 The project's structure and relationships provide a solid banking operations and user management foundation. Future enhancements can include authentication, transaction tracking, and error handling. The modular design allows for scalability and further customization to meet specific banking system needs.
+</br>
+</br>
+
+
 **The UML Class diagram**: 
+</br>
 ![bank system](https://github.com/jejeA/Mid-Project-Jwa/assets/45108741/00eb17e4-b349-4f17-9b17-d610b47268f0)
 
 
